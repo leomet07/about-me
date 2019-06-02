@@ -1,18 +1,60 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600&display=swap');
 
 body {
-	background-color: #1f2727;
+	background-color: #202020;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
 	/*background-image: url("mylogo.png");
 	background-repeat: no-repeat;
-    background-position: ;*/
+	background-position: ;*/
+}
+#bglogo {
+	height: 100%;
+	width: 56%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: -5%;
+	left: 60%;
+	transform: rotate(30deg);
+
+	opacity: 0.3;
+	float: right;
+	z-index: -1;
+}
+#wrappercontent {
+	margin-left: 3%;
 }
 * {
 	font-weight: 400;
 }
+#navbar {
+	padding-left: 3%;
+	margin-left: 0px;
+	margin-bottom: 3px;
+	border-bottom: 1px solid white;
+}
 h1 {
+}
+#navbar h1 {
+	margin-bottom: 1%;
+}
+#navbar h1 a {
+	text-decoration: none;
+	font-size: 23px;
+	color: white;
+	font-weight: 400;
+
+	margin-right: 20px;
+	transition: 0.34s;
+}
+
+#navbar h1 a:hover {
+	color: #0999ff;
+}
+
+#about1link {
+	margin-left: 50%;
 }
 #topheader {
 	margin-left: 5%;
@@ -31,24 +73,40 @@ h1 {
 	font-weight: 500;
 	font-style: italic;
 }
-#aboutme {
+.abouttop {
 	margin-top: 25%;
-	margin-bottom: 40%;
+	margin-bottom: 30%;
+}
+.aboutme {
+	margin-top: 0%;
+	margin-bottom: 45%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
 }
 
-#aboutmescroll {
+.scrollbutton {
+	color: white;
+	font-weight: 300;
 	background-color: #005ea0;
-	font-size: 25px;
+	font-size: 20px;
 	border: none;
-	border-radius: 6px;
-	padding: 3px 10px 4px 10px;
+	border-radius: 24px;
+	padding: 10px 24px 12px 24px;
+	box-shadow: 3px 3px 10px black;
+	transition: 0.2s;
 }
-#aboutmescroll {
+
+.scrollbutton:hover {
+	transform: rotate(10deg);
+}
+.scrollbutton {
 	outline: none;
 }
-#aboutmescroll::-moz-focus-inner {
+.scrollbutton::-moz-focus-inner {
 	border: 0;
 }
-#story {
+.story {
 	line-height: 160%;
+	text-align: center;
 }
