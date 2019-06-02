@@ -5,10 +5,14 @@ body {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
-	overflow-x: hidden;
+
 	/*background-image: url("mylogo.png");
 	background-repeat: no-repeat;
 	background-position: ;*/
+}
+#cutlogo {
+	width: 100%;
+	overflow: hidden;
 }
 #bglogo {
 	height: 100%;
@@ -22,6 +26,17 @@ body {
 	opacity: 0.3;
 	float: right;
 	z-index: -1;
+}
+/* if thin enough to warp img then do not show img */
+@media only screen and (max-width: 970px) {
+	#bglogo {
+		display: none;
+	}
+}
+@media only screen and (max-height: 700px) {
+	#bglogo {
+		display: none;
+	}
 }
 #wrappercontent {
 	margin-left: 3%;
@@ -76,16 +91,18 @@ h1 {
 }
 .abouttop {
 	margin-top: 25%;
-	margin-bottom: 30%;
+	margin-bottom: 40%;
 }
 .aboutme {
 	margin-top: 0%;
 	margin-bottom: 45%;
-	margin-left: 5%;
-	margin-right: 5%;
+
+	margin-right: 10%;
 	text-align: center;
 }
-
+#actualaboutme {
+	margin-left: 5%;
+}
 .scrollbutton {
 	color: white;
 	font-weight: 300;
@@ -110,4 +127,22 @@ h1 {
 .story {
 	line-height: 160%;
 	text-align: center;
+}
+.aboutme ul {
+	list-style: none;
+	text-align: left;
+}
+.aboutme li {
+	margin-top: 15%;
+	margin-left: 1%;
+	text-align: center;
+}
+.aboutme h1 {
+	text-decoration: underline;
+}
+a {
+	color: white;
+}
+#canvasgames a {
+	margin-right: 4%;
 }
