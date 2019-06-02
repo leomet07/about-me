@@ -114,10 +114,13 @@ h1 {
 	box-shadow: 3px 3px 10px black;
 	transition: 0.2s;
 }
-
-.scrollbutton:hover {
-	transform: rotate(10deg);
+/* make hover tilting only work on desktop */
+@media only screen and (min-width: 600px) {
+	.scrollbutton:hover {
+		transform: rotate(10deg);
+	}
 }
+
 .scrollbutton {
 	outline: none;
 }
