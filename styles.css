@@ -5,6 +5,7 @@ body {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
+	overflow-x: hidden;
 	/*background-image: url("mylogo.png");
 	background-repeat: no-repeat;
 	background-position: ;*/
