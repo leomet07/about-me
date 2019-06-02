@@ -40,10 +40,10 @@ function updateadj() {
 function aboutmescroll() {
 	//scrolls to top of div so to srcoll to bottom of about me u scroll to the div below it
 	var elmnt = document.getElementById("aboutmebelow");
-	elmnt.scrollIntoView();
+	elmnt.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 function aboutmescroll2() {
 	//scrolls to top of div so to srcoll to bottom of about me u scroll to the div below it
 	var elmnt = document.getElementById("aboutmebelow2");
-	elmnt.scrollIntoView();
+	elmnt.scrollIntoView({ behavior: "smooth", block: "center" });
 }
