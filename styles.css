@@ -95,6 +95,8 @@ h1 {
 }
 .aboutme {
 	margin-top: 0%;
+
+	margin-right: 10%;
 	margin-bottom: 45%;
 
 	text-align: center;
@@ -152,5 +154,17 @@ a {
 @media only screen and (max-width: 1000px) {
 	#navbar a {
 		display: none;
+	}
+}
+/* if thin enough to warp text in nav then do not show text */
+@media only screen and (max-width: 1000px) {
+	#navbar a {
+		display: none;
+	}
+}
+/* if thin enough to warp text in nav then do not show text */
+@media only screen and (min-width: 500px) {
+	.aboutme li {
+		margin-right: 8%;
 	}
 }
