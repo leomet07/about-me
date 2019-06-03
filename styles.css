@@ -148,3 +148,9 @@ a {
 #canvasgames a {
 	margin-right: 4%;
 }
+/* if thin enough to warp text in nav then do not show text */
+@media only screen and (max-width: 1000px) {
+	#navbar a {
+		display: none;
+	}
+}
