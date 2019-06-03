@@ -1,82 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>About Leonid</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel = "icon" href = "mylogo.png">
-    <link rel = "stylesheet" href  = "styles.css">
-    <script src = "script.js"></script>    
-</head>
-<body>
-    <!--
-    <div id = "cutlogo">
-    <img src = "mylogo.png" id = "bglogo">
-    </div>
-    -->
-    <div id = "navbar">
-    <h1><img height = "68px" src = "mylogo.png">  <a href = "#" id = "about1link">About me</a><a href = "#" id = "about2link">Portfolio</a><a href = "https://github.com/leomet07" target = "_blank" id = "">See more work</a></h1>
-    </div>
-    <div id ="wrappercontent">
-
-    
-    <div id = "whoami">
-    <h1 id = "hello">Hello,<br> I'm Leonid</h1>
-    <h2>A <span id = "typeadj">passionate</span> programmer.</h2>
-    </div>
-    <button class = "scrollbutton" id ="aboutmescroll" onclick="aboutmescroll()">About me</button>
-    <button class = "scrollbutton" id ="aboutmescroll2" onclick="aboutmescroll2()">Portfolio</button>
-
-
-    <div id = "aboutmebelow" class ="abouttop"></div>
-    <div  id = "actualaboutme" class = "aboutme">
-        <h2>About me</h2>
-        <p class = "story">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa felis, facilisis bibendum rutrum quis, laoreet eu libero. Curabitur non viverra sem. Sed ut cursus risus. Aliquam vel cursus dui. Etiam felis ipsum, mollis eu nisl vitae, semper accumsan eros. Integer semper scelerisque nisi, eget dapibus lorem sollicitudin volutpat. Mauris consectetur, elit eget porttitor vulputate, nibh tellus blandit neque, consequat aliquam nisi eros sit amet purus.
-
-            Pellentesque ac mi nec enim congue tempor vitae vitae ligula. Praesent in pretium ex. Sed vulputate ligula in sagittis mollis. Pellentesque vestibulum erat neque, ac tincidunt justo tempus vitae. Mauris pharetra aliquam tellus, non rhoncus enim bibendum a. Aliquam magna elit, sodales quis hendrerit eget, efficitur sit amet nunc. Cras facilisis at magna ac venenatis. Aliquam erat volutpat. Fusce mattis metus maximus eros finibus malesuada.
-        </p>
-    </div>
-        
-    <div id = "aboutmebelow2" class ="abouttop"></div>
-    <div  class = "aboutme">
-            <h1>Portfolio</h1>
-            <ul>
-                <li>
-                    <div>
-                        <h2>Twitter-mockup</h2>
-                        <img src = "Thumbnails/twitter-mockup.png" width = "75%" alt = "Twitter-mockup">
-                        <br>
-                        <a href = "https://leomet07.github.io/twitter-mockup" target = "_blank">Click to see it</a>
-
-                    </div>
-                </li>
-                <li>
-                        <div>
-                            <h2>Blackjack</h2>
-                            <h3>Also has a developed card system</h3>
-                            <img src = "Thumbnails/blackjack.png" width = "75%" alt = "Blackjack">
-                            <br>
-                            <a href = "https://leomet07.github.io/blackjack" target = "_blank">Click to see it</a>
-    
-                        </div>
-                    </li>
-                    <li id = "canvasgames">
-                            <div>
-                                <h2>Various canvas games</h2>
-                                <h3>Also has a developed card system</h3>
-                                <img src = "Thumbnails/tictactoe.png" width = "25%" alt = "tictactoe">
-                                <img src = "Thumbnails/dino.png" width = "25%" alt = "dino">
-                                <img src = "Thumbnails/bird.png" width = "25%" alt = "bird">
-                                <br>
-                                <a href = "https://leomet07.github.io/tic-tac-toe" target = "_blank">Click to see tictactoe</a>
-                                <a href = "https://leomet07.github.io/dino" target = "_blank">Click to see dino</a>
-                                <a href = "https://leomet07.github.io/flappy-bird-in-js" target = "_blank">Click to see flappybird</a>
-        
-                            </div>
-                        </li>
-            </ul>
-    </div>
-</div>
-    
-</body>
+	<head>
+		<title>About Leonid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+		<link rel = "icon" href = "mylogo.png">
+		<link rel = "stylesheet" href  = "styles.css">
+		<script src = "script.js"></script>    
+	</head>
+	<body>
+		<!--
+			<div id = "cutlogo">
+			<img src = "mylogo.png" id = "bglogo">
+			</div>
+			-->
+		<div id = "navbar">
+			<h1><img height = "68px" src = "mylogo.png">  <a href = "#" id = "about1link">About me</a><a href = "#" id = "about2link">Portfolio</a><a href = "https://github.com/leomet07" target = "_blank" id = "">See more work</a></h1>
+		</div>
+		<div id ="wrappercontent">
+			<div id = "whoami">
+				<h1 id = "hello">Hello,<br> I'm Leonid</h1>
+				<h2>A <span id = "typeadj">passionate</span> programmer.</h2>
+			</div>
+			<button class = "scrollbutton" id ="aboutmescroll" onclick="aboutmescroll()">About me</button>
+			<button class = "scrollbutton" id ="aboutmescroll2" onclick="aboutmescroll2()">Portfolio</button>
+			<br>
+			<button id = "arrow" onclick = "aboutmescroll()"><i class="material-icons md-light">
+			arrow_downward
+			</i></button>
+			<div id = "aboutmebelow" class ="abouttop"></div>
+			<div  id = "actualaboutme" class = "aboutme">
+				<h2>About me</h2>
+				<p class = "story">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc massa felis, facilisis bibendum rutrum quis, laoreet eu libero. Curabitur non viverra sem. Sed ut cursus risus. Aliquam vel cursus dui. Etiam felis ipsum, mollis eu nisl vitae, semper accumsan eros. Integer semper scelerisque nisi, eget dapibus lorem sollicitudin volutpat. Mauris consectetur, elit eget porttitor vulputate, nibh tellus blandit neque, consequat aliquam nisi eros sit amet purus.
+					Pellentesque ac mi nec enim congue tempor vitae vitae ligula. Praesent in pretium ex. Sed vulputate ligula in sagittis mollis. Pellentesque vestibulum erat neque, ac tincidunt justo tempus vitae. Mauris pharetra aliquam tellus, non rhoncus enim bibendum a. Aliquam magna elit, sodales quis hendrerit eget, efficitur sit amet nunc. Cras facilisis at magna ac venenatis. Aliquam erat volutpat. Fusce mattis metus maximus eros finibus malesuada.
+				</p>
+			</div>
+			<div id = "aboutmebelow2" class ="abouttop"></div>
+			<div  class = "aboutme">
+				<h1>Portfolio</h1>
+				<ul>
+					<li>
+						<div>
+							<h2>Twitter-mockup</h2>
+							<img src = "Thumbnails/twitter-mockup.png" width = "75%" alt = "Twitter-mockup">
+							<br>
+							<a href = "https://leomet07.github.io/twitter-mockup" target = "_blank">Click to see it</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<h2>Blackjack</h2>
+							<h3>Also has a developed card system</h3>
+							<img src = "Thumbnails/blackjack.png" width = "75%" alt = "Blackjack">
+							<br>
+							<a href = "https://leomet07.github.io/blackjack" target = "_blank">Click to see it</a>
+						</div>
+					</li>
+					<li id = "canvasgames">
+						<div>
+							<h2>Various canvas games</h2>
+							<h3>Also has a developed card system</h3>
+							<img src = "Thumbnails/tictactoe.png" width = "25%" alt = "tictactoe">
+							<img src = "Thumbnails/dino.png" width = "25%" alt = "dino">
+							<img src = "Thumbnails/bird.png" width = "25%" alt = "bird">
+							<br>
+							<a href = "https://leomet07.github.io/tic-tac-toe" target = "_blank">Click to see tictactoe</a>
+							<a href = "https://leomet07.github.io/dino" target = "_blank">Click to see dino</a>
+							<a href = "https://leomet07.github.io/flappy-bird-in-js" target = "_blank">Click to see flappybird</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
 </html>

@@ -162,9 +162,21 @@ a {
 		display: none;
 	}
 }
-/* if thin enough to warp text in nav then do not show text */
-@media only screen and (min-width: 500px) {
-	.aboutme li {
-		margin-right: 8%;
-	}
+
+#arrow {
+	display: block;
+
+	background-color: beige;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 15%;
+}
+.material-icons.md-dark {
+	color: rgba(0, 0, 0, 0.54);
+}
+#arrow {
+	outline: none;
+}
+#arrow::-moz-focus-inner {
+	border: 0;
 }
