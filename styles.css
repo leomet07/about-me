@@ -177,3 +177,13 @@ a {
 #arrow::-moz-focus-inner {
 	border: 0;
 }
+#portfolio {
+	margin-bottom: 15%;
+}
+footer {
+	text-align: center;
+}
+footer h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+}
