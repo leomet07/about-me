@@ -187,3 +187,12 @@ footer h1 {
 	text-transform: uppercase;
 	font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+	#navbar h1 {
+		font-size: 23px;
+	}
+	#hello {
+		font-size: 50px;
+	}
+}
