@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141358621-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'UA-141358621-1');
-    </script>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141358621-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-		<title>About Leonid</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-			rel="stylesheet">
-		<link rel = "icon" href = "mylogo.png">
-		<link rel = "stylesheet" href  = "styles.css">
-		<script src = "script.js"></script>    
-	</head>
-	<body>
-		<!--
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-141358621-1');
+	</script>
+
+	<title>About Leonid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" href="mylogo.png">
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<!--
 			<div id = "cutlogo">
 			<img src = "mylogo.png" id = "bglogo">
 			</div>
 			-->
-		<div id = "navbar">
-			<h1><img height = "68px" src = "mylogo.png">  <a href = "#" id = "about1link">About me</a><a href = "#" id = "about2link">Portfolio</a><a href = "https://github.com/leomet07" target = "_blank" id = "">See more work</a><a href = "mailto: leomet07@gmail.com" target = "_blank">Send Email</a></h1>
+	<div id="navbar">
+		<h1><img height="68px" src="mylogo.png"> <a href="#" id="about1link">About me</a><a href="#"
+				id="about2link">Portfolio</a><a href="https://github.com/leomet07" target="_blank" id="">See more
+				work</a><a href="mailto: leomet07@gmail.com" target="_blank">Send Email</a></h1>
+	</div>
+	<div id="wrappercontent">
+		<div id="whoami">
+			<h1 id="hello">Hello,<br> I'm Leonid</h1>
+			<h2>A <span id="typeadj">passionate</span> programmer.</h2>
 		</div>
-		<div id ="wrappercontent">
-			<div id = "whoami">
-				<h1 id = "hello">Hello,<br> I'm Leonid</h1>
-				<h2>A <span id = "typeadj">passionate</span> programmer.</h2>
-			</div>
-			<button class = "scrollbutton" id ="aboutmescroll" onclick="aboutmescroll()">About me</button>
-			<button class = "scrollbutton" id ="aboutmescroll2" onclick="aboutmescroll2()">Portfolio</button>
-			<br>
-			<button id = "arrow" onclick = "aboutmescroll()"><i class="material-icons md-light">
-			arrow_downward
+		<button class="scrollbutton" id="aboutmescroll" onclick="aboutmescroll()">About me</button>
+		<button class="scrollbutton" id="aboutmescroll2" onclick="aboutmescroll2()">Portfolio</button>
+		<br>
+		<button id="arrow" onclick="aboutmescroll()"><i class="material-icons md-light">
+				arrow_downward
 			</i></button>
-			<div id = "aboutmebelow" class ="abouttop"></div>
-			<div  id = "actualaboutme" class = "aboutme">
-                <h1>About me</h1>
-                <div class = "story">
-                <p >I, Leonid Metlitsky am a student at Mark Twain Middle school (IS239) in Brooklyn,NY.</p>
-                <p >I am a programmer/ fullstack web-developer</p>
-                <h2 >My current stack of languages is:</h2>
-                <h3>Python - JS - Firebase - CSS - Java - C/C++</h3></div>
+		<div id="aboutmebelow" class="abouttop"></div>
+		<div id="actualaboutme" class="aboutme">
+			<h1>About me</h1>
+			<div class="story">
+				<p>I, Leonid Metlitsky am a student at Mark Twain Middle school (IS239) in Brooklyn,NY.</p>
+				<p>I am a programmer/ fullstack web-developer</p>
+				<h2>My current stack of languages is:</h2>
+				<h3>Python - JS - Firebase - CSS - Java - C/C++</h3>
 			</div>
-            <div id = "aboutmebelow2" class ="abouttop"></div>
-            <br>
-			<div  id = "portfolio" class = "aboutme">
-				<h1>Portfolio</h1>
-				<ul>
-					<li>
-						<div>
-							<h2>Twitter-mockup</h2>
-							<img src = "Thumbnails/twitter-mockup.png" width = "75%" alt = "Twitter-mockup">
-							<br>
-							<a href = "https://leomet07.github.io/twitter-mockup" target = "_blank">Click to see it</a>
-						</div>
-					</li>
+		</div>
+		<div id="aboutmebelow2" class="abouttop"></div>
+		<br>
+		<div id="portfolio" class="aboutme">
+			<h1>Portfolio</h1>
+			<ul>
+				<li>
+					<div>
+						<h2>Pedestrian counter</h2>
+						<h3>A pedestrian counter platform in python.</h3>
+
+
+						<img src="Thumbnails/pedet.png" width="75%" alt="Twitter-mockup">
+						<br>
+						<a href="https://github.com/leomet07/Pedestrian-Counting-Python" target="_blank">Click to see
+							it</a>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h2>Arrow</h2>
+						<h3>A python voice assistant, with basic voice assistant functionality</h3>
+
+						<br>
+						<a href="https://github.com/leomet07/arrow" target="_blank">Click to see it</a>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h2>Twitter-mockup</h2>
+						<img src="Thumbnails/twitter-mockup.png" width="75%" alt="Twitter-mockup">
+						<br>
+						<a href="https://leomet07.github.io/twitter-mockup" target="_blank">Click to see it</a>
+					</div>
+				</li>
+				<!--
 					<li>
 						<div>
 							<h2>Blackjack</h2>
@@ -83,14 +112,16 @@
 							<a href = "https://leomet07.github.io/flappy-bird-in-js" target = "_blank">Click to see flappybird</a>
 						</div>
 					</li>
-				</ul>
-			</div>
-			<footer>
-				<img src = "mylogo.png">
-				<h1>Contact Me</h1>
-				<a href = "mailto: leomet07@gmail.com">Contact by email</a>
-				<h2>leomet07@gmail.com</h2>
-			</footer>
+				-->
+			</ul>
 		</div>
-	</body>
+		<footer>
+			<img src="mylogo.png">
+			<h1>Contact Me</h1>
+			<a href="mailto: leomet07@gmail.com">Contact by email</a>
+			<h2>leomet07@gmail.com</h2>
+		</footer>
+	</div>
+</body>
+
 </html>
